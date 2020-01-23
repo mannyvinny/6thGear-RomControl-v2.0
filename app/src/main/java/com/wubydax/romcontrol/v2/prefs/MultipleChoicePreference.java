@@ -11,8 +11,6 @@ import android.preference.DialogPreference;
 import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -25,6 +23,9 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.wubydax.romcontrol.v2.R;
 import com.wubydax.romcontrol.v2.utils.Utils;

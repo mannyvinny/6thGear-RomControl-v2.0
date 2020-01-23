@@ -7,12 +7,13 @@ import android.content.res.TypedArray;
 import android.preference.DialogPreference;
 import android.preference.Preference;
 import android.provider.Settings;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RadioButton;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.wubydax.romcontrol.v2.R;
 import com.wubydax.romcontrol.v2.utils.MultiSelectAdapter;

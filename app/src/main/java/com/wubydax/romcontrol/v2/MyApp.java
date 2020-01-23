@@ -19,7 +19,7 @@ import android.content.Context;
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 public class MyApp extends Application {
-    @SuppressLint("StaticFieldLeak")
+
     private static Context mContext;
 
     public static Context getContext() {

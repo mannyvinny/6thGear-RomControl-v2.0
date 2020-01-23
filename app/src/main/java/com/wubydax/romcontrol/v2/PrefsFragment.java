@@ -13,12 +13,12 @@ import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.MediaStore;
 import android.provider.Settings;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+
+import androidx.appcompat.widget.Toolbar;
 
 import com.wubydax.romcontrol.v2.prefs.OpenAppPreference;
 import com.wubydax.romcontrol.v2.prefs.UriSelectionPreference;
